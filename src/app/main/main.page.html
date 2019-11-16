@@ -1,0 +1,74 @@
+<ion-header>
+ <ion-grid>
+   <ion-row>
+     <ion-col col-6>
+       <div class="header">
+         <img src="../../assets/logo.jpg" />
+       </div>
+     </ion-col>
+     <ion-col col-6 text-center>
+      <div class="user-name">
+        <p>Olá,<strong> Ewerton</strong></p>
+      </div>
+    </ion-col>
+   </ion-row>
+ </ion-grid>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-grid>
+    <div class="title-container">
+      <h4>ESCOLHA A ÁREA DE REGULAÇÃO</h4>
+    </div>
+    <ion-row  style="justify-content: center;">
+      <ion-col size="5" size="5" text-center>
+          <div class="transporte">
+            <ion-card (click)="transporte()">
+              <img src="../../assets/bus.png" alt="">
+              <p>Transporte</p>
+            </ion-card>
+          </div>
+        </ion-col>
+        <ion-col size="5" text-center>
+          <div class="saneamento">
+            <ion-card>
+              <img src="../../assets/water.png" alt="">
+              <p>Saneamento</p>
+            </ion-card>
+          </div>
+        </ion-col>          
+    </ion-row>
+
+    <ion-row  style="justify-content: center;">
+        <ion-col  size="5" text-center>
+            <div class="gas">
+              <ion-card>
+                <img src="../../assets/flame.png" alt="">
+                <p>Gás</p>
+              </ion-card>    
+            </div>
+          </ion-col>
+          <ion-col  size="5" text-center>
+            <div class="energia">
+              <ion-card>
+                <img src="../../assets/innovation.png" alt="">
+                <p>Energia</p>
+              </ion-card>
+            </div>
+          </ion-col>                    
+      </ion-row>
+
+      <ion-row style="justify-content:center;">
+          <ion-col size="6" size="5" text-center>
+              <div class="settings">
+                <ion-card>
+                  <img src="../../assets/settings.png" alt="">
+                  <p>Configuração</p>
+                </ion-card>
+              </div>
+            </ion-col> 
+      </ion-row>
+  </ion-grid>
+</ion-content>
